@@ -156,3 +156,88 @@ table {
     background-color: #f1f1f1;
     border: 1px solid #0d124a11;
 }
+
+body {
+  background-color: purple;
+}
+
+/* task F css */
+
+.horizBAR {
+  width: 100%;
+  
+  height: 30%;
+  background-color: orange;
+  
+}
+
+.containerF {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: purple;
+}
+
+/* task G css */
+
+.G {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+
+
+
+.containerG {
+  height: 100vh;
+ 
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: purple;
+}
+
+
+.vertBAR {
+  height: 100vh;
+  width: 30%;
+  background-color: orange;
+  
+}
+
+
+/* task H css */
+
+.H {
+  background-color: purple;
+  justify-content: center;
+  display:flex;
+}
+
+.biggerContainer {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* small box, fit 3 inside of vertical column */
+.smallBOX {
+  background-color: orange;
+  
+  height: 31%;
+  width: 95%;
+  
+}
+/* fit 5 inside of the bigger container */
+.vertCOL {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  justify-content: space-evenly;
+  
+}
